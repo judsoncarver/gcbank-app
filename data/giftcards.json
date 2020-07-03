@@ -1,0 +1,19 @@
+{
+	"giftcards": [
+		{
+			"number": "2341516432145153",
+			"pin": "5647",
+			"checkedOut": "true"
+		},
+		{
+			"number": "3423514514313124",
+			"pin": "3413",
+			"checkedOut": "false"
+		},
+		{
+			"number": "2452435423612341",
+			"pin": "5423",
+			"checkedOut": "false"
+		}
+	]
+}
