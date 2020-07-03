@@ -28,6 +28,9 @@ router
 	.post('/', async (req, res, next) => {
 		addGiftcard(req, res, next);
 	})
+	.put('/:id', async (req, res, next) => {
+		updateGiftcard(req, res, next);
+	})
 	.delete('/:id', async (req, res, next) => {
 		deleteGiftcard(req, res, next);
 	});

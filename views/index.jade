@@ -1,7 +1,6 @@
 extends layout
 
 block content
+  img(src='images/unirem.jpeg')
   h1= title
-  h3 Would you like a giftcard?
-  button Yes
-  button No
+  p Server running on port #{process.env.PORT}
