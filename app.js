@@ -1,5 +1,7 @@
-// Gift Card Bank
-// Author: Judson Carver
+/**
+ * @name gcbank-app
+ * @author Judson Carver
+ */
 
 const express = require('express');
 const dotenv = require('dotenv');
@@ -11,6 +13,7 @@ const logger = require('morgan');
 
 const port = 3000;
 
+import regeneratorRuntime from 'regenerator-runtime';
 import index from './routes/index';
 import giftcards from './routes/giftcards';
 const connectDB = require('./config/db');
