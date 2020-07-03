@@ -1,7 +1,6 @@
 import express from 'express';
 const fs = require('fs');
 const router = express.Router();
-import { v4 as uuidv4 } from 'uuid';
 
 // use giftcards junk data for now
 const rawdata = fs.readFileSync('data/giftcards.json');
